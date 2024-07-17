@@ -12,3 +12,6 @@ This script creates a web application using Streamlit to provide an interactive 
 
 "charts.py"
 This script trains a sentiment analysis model using a dataset of reviews. It follows a comprehensive process including data loading, preprocessing, model training, evaluation, and result visualization. Initially, the dataset is loaded and cleaned, with reviews being converted to lowercase and non-alphabet characters removed. Sentiment labels are defined based on review scores. The dataset is split into training and test sets, and text data is vectorized and scaled. An XGBoost classifier is trained on the processed data. The trained model, along with the vectorizer and scaler, are saved for future use. The script then evaluates the model's performance using accuracy scores, classification reports, and confusion matrices. Visualizations include a heatmap of the confusion matrix, a pie chart of sentiment distribution, bar charts of classification metrics, and a feature importance bar chart. This ensures a thorough understanding of the model's performance and the most significant features contributing to predictions.
+
+"reviews.csv"
+This is the dataset for the implementation of this model.
